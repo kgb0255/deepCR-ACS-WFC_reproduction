@@ -9,4 +9,4 @@ To reproduce the models, run ``deepCR-ACS-WFC.py`` in the command line. It will 
     * The individual filter models are tested with respective test dataset, and the global model is tested with all three test datsets concatenated. Additionally, LACosmic will be tested with the individual test datasets.
 4. Plotting the testing results. (ROC curves)
 
-You'll likely need ~50GB disk space to download the training and testdata, as well as GPU support to intiate training.
+You'll likely need ~50GB disk space to download the training and test data, as well as GPU support to intiate training.
