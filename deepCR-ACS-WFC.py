@@ -13,13 +13,13 @@ def download():
     print('------------------------------------------------------------')
     print('Downloading training data')
     print('------------------------------------------------------------')
-    urllib.request.urlretrieve('https://zenodo.org/api/files/8998d801-f877-4301-8b9d-efd3a3adaed7/deepCR.ACS-WFC.train.tar?versionId=9157d939-07da-4ce2-89a3-f59b298b51fd','deepCR.ACS-WFC.train.tar')
+    urllib.request.urlretrieve('https://zenodo.org/record/4295902/files/deepCR.ACS-WFC.train.tar?download=1')
     
     #Donwload test data
     print('------------------------------------------------------------')
     print('Downloading test data')
     print('------------------------------------------------------------')
-    urllib.request.urlretrieve('https://zenodo.org/api/files/8998d801-f877-4301-8b9d-efd3a3adaed7/deepCR.ACS-WFC.test.tar?versionId=571378b4-9e36-478e-9f8d-c6cc04ce7b8d','deepCR.ACS-WFC.test.tar')
+    urllib.request.urlretrieve('https://zenodo.org/record/4295902/files/deepCR.ACS-WFC.test.tar?download=1')
     
     print('Datasets downloaded')
     print('Sorting...')
