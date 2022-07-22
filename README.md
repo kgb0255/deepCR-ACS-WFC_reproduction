@@ -12,3 +12,20 @@ To reproduce the models, run ``deepCR-ACS-WFC.py`` in the command line. It will 
 4. Plotting the test results. (ROC curves)
 
 You'll likely need ~50GB disk space to download the training and test data, as well as GPU support to intiate training. 
+
+Please cite the following if you use deepCR on ACS/WFC in your paper
+ ```
+ @article{2021RNAAS...5...98K,
+ author = {Kwon, K.~J. and Zhang, Keming and Bloom, Joshua S.},
+ doi = {10.3847/2515-5172/abf6c8},
+ eid = {98},
+ journal = {Research Notes of the American Astronomical Society},
+ keywords = {Astronomy data reduction, Convolutional neural networks, Classification, Neural networks, Cosmic rays, Hubble Space Telescope, Astronomical detectors, 1861, 1938, 1907, 1933, 329, 761, 84},
+ month = {April},
+ number = {4},
+ pages = {98},
+ title = {DEEPCR on ACS/WFC: Cosmic-Ray Rejection for HST ACS/WFC Photometry},
+ volume = {5},
+ year = {2021}
+}
+ ```
